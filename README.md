@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the data
-train_data = pd.read_csv('https://www.kaggle.com/datasets/brendan45774/test-file?resource=download')
+train_data = pd.read_csv('https://www.kaggle.com/datasets/brendan45774/test-file/data/tested.csv')
 
 # Exploratory Data Analysis
 print("Dataset Shape:", train_data.shape)
